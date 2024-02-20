@@ -15,7 +15,7 @@ const nextConfig = {
   images: {
     remotePatterns: [
       {
-        hostname: "cdn.shopify.com",
+        hostname: "cdn-icons-png.flaticon.com",
         protocol: "https",
       },
       {
