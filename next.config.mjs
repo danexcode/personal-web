@@ -19,7 +19,7 @@ const nextConfig = {
         protocol: "https",
       },
       {
-        hostname: "i.imgur.com",
+        hostname: "img.freepik.com",
         protocol: "https",
       },
     ],

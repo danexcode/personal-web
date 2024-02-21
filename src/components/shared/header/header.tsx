@@ -1,5 +1,6 @@
 import Image from 'next/image';
 
+import logo from '../../../../public/icons/danexcode.png'
 import styles from './header.module.sass'
 
 export const Header = () => {
@@ -7,13 +8,22 @@ export const Header = () => {
     <header className={styles.header}>
       <section>
         <ul>
-          <li>Danexcode</li>
-          <li>Biografía</li>
+          <li>
+            <Image 
+              className={styles.img}
+              alt='danexcode logo'
+              src={logo}
+            />
+          </li>
         </ul>
       </section>
       <section>
         <ul>
-          <li>Login</li>
+          <li>Biografía</li>
+          <li>Portfolio</li>
+          <li className={styles.login}>
+            Login
+          </li>
         </ul>
       </section>
     </header>
